@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
 
         {/* Hero content */}
-        <div className="absolute top-40 pt-32 pb-10 md:pt-40 md:pb-16">
+        <div className="absolute transform translate-y-1/3 pt-32 pb-10 md:pt-40 md:pb-16">
 
           {/* Section header */}
           <div className="max-w-5xl mx-1 text-left pb-12 md:pb-16 content-center">
