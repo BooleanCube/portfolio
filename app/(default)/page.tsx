@@ -1,22 +1,25 @@
+import Research from "@/components/research";
+
 export const metadata = {
   title: 'BooleanCube',
   description: 'Home page of BooleanCube\'s portfolio website. Learn more about BooleanCube here...',
 }
 
 import Hero from '@/components/hero'
-import Features from '@/components/features'
-import Newsletter from '@/components/newsletter'
-import Zigzag from '@/components/zigzag'
-import Testimonials from '@/components/testimonials'
+import About from '@/components/about'
+import Connect from '@/components/connect'
+import Projects from '@/components/projects'
+import Skills from '@/components/skills'
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <Features />
-      <Zigzag />
-      <Testimonials />
-      <Newsletter />
+      <div className="hero-break" />
+      <About />
+      <Skills />
+      <Projects />
+      <Research />
     </>
   )
 }

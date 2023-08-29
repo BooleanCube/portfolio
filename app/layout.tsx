@@ -24,11 +24,7 @@ export const metadata = {
   description: 'Learn more about BooleanCube on their portfolio website with many cool projects and blogs.',
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className="scroll-container">
       <body className={`${inter.variable} ${architects_daughter.variable} font-inter antialiased bg-gray-1000 text-gray-0 tracking-tight`}>

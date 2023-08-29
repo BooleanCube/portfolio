@@ -12,15 +12,15 @@
     ),
     linear-gradient(
             to top left,
-            theme(colors.orange.500 / 50%),
-            theme(colors.purple.500 / 25%),
-            theme(colors.gray.50)
+            theme(colors.orange.500 / 10%),
+            theme(colors.purple.500),
+            theme(colors.orange.300 / 75%)
     ),
-    theme(colors.gray.50);
+    theme(colors.purple.200);
 }
 
 .text-glow {
-    text-shadow: 0 0 72px theme(colors.purple.100 / 55%), 0 0 24px theme(colors.purple.100 / 24%);
+    text-shadow: 0 0 72px theme(colors.purple.200 / 65%), 0 0 24px theme(colors.purple.200 / 24%);
 }
 
 
@@ -44,11 +44,11 @@
 
 @screen md {
     .h1 {
-        @apply text-5xl;
+        @apply text-6xl;
     }
 
     .h2 {
-        @apply text-4xl;
+        @apply text-5xl;
     }
 }
 
@@ -108,4 +108,58 @@
 .scroll-container {
     overflow-y: scroll;
     scroll-behavior: smooth;
+}
+
+.flex-parent-element {
+    display: flex;
+    width: 100%;
+}
+
+.flex-child-element {
+    flex: 2;
+    margin: 10px;
+}
+
+.flex-child-element-big {
+    flex: 2.5;
+    margin: 30px;
+}
+
+.flex-child-element-small {
+    flex: 1;
+    margin: 10px;
+}
+
+.flex-child-element:first-child {
+    margin-right: 20px;
+}
+
+.hero-break {
+    height: 16px;
+    width: 100%;
+    background-color: rgba(129, 64, 185, 0.95);
+    margin: -8px 0;
+    display: block;
+
+    -webkit-box-shadow: 0 0 32px 0 rgb(138, 43, 226);
+    -moz-box-shadow: 0 0 32px 0 rgb(138, 43, 226);
+    box-shadow: 0 0 32px 0 rgb(138, 43, 226);
+}
+
+.rule-break {
+    height: 6px;
+    background-color: rgba(129, 64, 185, 0.95);
+    margin: -3px 0;
+    display: block;
+
+    -webkit-box-shadow: 0 0 16px 0 rgba(138, 43, 226, 0.75);
+    -moz-box-shadow: 0 0 16px 0 rgba(138, 43, 226, 0.75);
+    box-shadow: 0 0 16px 0 rgba(138, 43, 226, 0.75);
+}
+
+.small-rule-break {
+    height: 2px;
+    background-color: gray;
+    margin: -1px 0;
+    display: block;
 }
