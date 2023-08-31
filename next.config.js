@@ -3,6 +3,11 @@
 const nextConfig = {
     output: 'export',
 
+    images: {
+        unoptimized: true,
+        // loader: "custom",
+    },
+
     webpack(config) {
         config.resolve.fallback = {
             ...config.resolve.fallback,
