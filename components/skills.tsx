@@ -108,7 +108,6 @@ export default function Skills() {
                 <img src="https://img.shields.io/badge/gradle--gray?style=for-the-badge&logo=gradle&logoColor=%2302303A&labelColor=rgba(0%2C0%2C0%2C0)&color=rgba(0%2C0%2C0%2C0)" alt="Gradle" />
                 <img src="https://img.shields.io/badge/nuget--gray?style=for-the-badge&logo=nuget&logoColor=%23004880&labelColor=rgba(0%2C0%2C0%2C0)&color=rgba(0%2C0%2C0%2C0)" alt="NuGet" />
                 <img src="https://img.shields.io/badge/npm--gray?style=for-the-badge&logo=npm&logoColor=%23CB3837&labelColor=rgba(0%2C0%2C0%2C0)&color=rgba(0%2C0%2C0%2C0)" alt="npm" />
-                <img src="https://img.shields.io/badge/shell--gray?style=for-the-badge&logo=shell&logoColor=%23FFD500&labelColor=rgba(0%2C0%2C0%2C0)&color=rgba(0%2C0%2C0%2C0)" alt="Shell" />
                 <img src="https://img.shields.io/badge/canva--gray?style=for-the-badge&logo=canva&logoColor=%2300C4CC&labelColor=rgba(0%2C0%2C0%2C0)&color=rgba(0%2C0%2C0%2C0)" alt="Canva" />
               </div>
             </div>
