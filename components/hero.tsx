@@ -1,11 +1,10 @@
 'use client'
 
 import { TypeAnimation } from 'react-type-animation'
-import BackgroundImage from "@/public/images/background.png";
 
 export default function Hero() {
   return (
-    <section style={{backgroundImage: `url(${BackgroundImage})`, height: '150vh', backgroundPositionX: -500, backgroundPositionY: 0}}>
+    <section style={{backgroundImage: `url(${process.env.PUBLIC_URL}/images/background.png)`, height: '150vh', backgroundPositionX: -500, backgroundPositionY: 0}}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
 
         {/* Hero content */}
