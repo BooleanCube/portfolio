@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import MobileMenu from './mobile-menu'
+// import MobileMenu from './mobile-menu'
 import Image from "next/image";
 
 import HomeLogo from '@/public/images/logo.png';
@@ -29,15 +29,15 @@ export default function Header() {
               {/*    Projects*/}
               {/*  </Link>*/}
               {/*</li>*/}
-              <li>
-                <Link href="https://booleancube.github.io/" target="_blank" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">
-                  Personal Website
-                </Link>
-              </li>
+              {/*<li>*/}
+              {/*  <Link href="https://booleancube.github.io/" target="_blank" className="btn-sm text-white bg-purple-600 hover:bg-purple-700 ml-3">*/}
+              {/*    Personal Website*/}
+              {/*  </Link>*/}
+              {/*</li>*/}
             </ul>
           </nav>
 
-          <MobileMenu />
+          {/*<MobileMenu />*/}
 
         </div>
       </div>
