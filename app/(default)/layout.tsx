@@ -25,9 +25,9 @@ export default function DefaultLayout({ children }: { children: React.ReactNode 
 
         {children}
 
-        </main>
+      </main>
 
-        <Footer />
+      <Footer />
     </>
   )
 }
