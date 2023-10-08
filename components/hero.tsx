@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation'
 
 export default function Hero() {
   return (
-    <section style={{backgroundImage: `url(/images/background.png)`, height: '150vh', backgroundPositionX: -500, backgroundPositionY: 0}}>
+    <section style={{backgroundImage: `url(https://github.com/BooleanCube/portfolio/blob/main/public/images/background.png?raw=true)`, height: '150vh', backgroundPositionX: -500, backgroundPositionY: 0}}>
       <div className="max-w-6xl mx-auto px-4 sm:px-6 relative">
 
         {/* Hero content */}
