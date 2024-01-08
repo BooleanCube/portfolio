@@ -19,7 +19,7 @@ export default function Footer() {
             <div className="md:col-span-4 lg:col-span-5">
               <div className="mb-2">
                 {/* Logo */}
-                <Link href="/" className="inline-block" aria-label="BooleanCube">
+                <Link href="https://booleancube.github.io/portfolio/" className="inline-block" aria-label="BooleanCube">
                   <Image src={HomeLogo} alt="BooleanCube" width={50} height={50} />
                 </Link>
               </div>
