@@ -12,7 +12,7 @@ export default function Header() {
           {/* Site branding */}
           <div className="shrink-0 mr-4">
             {/* Logo */}
-            <Link href="/" className="block" aria-label="BooleanCube">
+            <Link href="https://booleancube.github.io/portfolio/" className="block" aria-label="BooleanCube">
               <Image src={HomeLogo} alt="Home" width={225} height={225} />
             </Link>
           </div>
